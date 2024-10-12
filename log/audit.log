@@ -1,0 +1,62 @@
+2024-10-11 22:56:02 [INFO] - File Download Initiated
+2024-10-11 22:56:02 [INFO] - Download directory created: /mnt/e/capstone4/dataset/download/
+2024-10-11 22:56:02 [INFO] - Extraction directory created: /mnt/e/capstone4/dataset/data/
+Spider mode enabled. Check if remote file exists.
+--2024-10-11 22:56:02--  https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-PY0221EN-SkillsNetwork/labs/module%206/Lab%20-%20Extract%20Transform%20Load/data/source.zip
+Resolving cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud (cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud)... 169.63.118.104
+Connecting to cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud (cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud)|169.63.118.104|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2707 (2.6K) [application/zip]
+Remote file exists.
+
+2024-10-11 22:56:04 [INFO] - URL is reachable: https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-PY0221EN-SkillsNetwork/labs/module%206/Lab%20-%20Extract%20Transform%20Load/data/source.zip
+--2024-10-11 22:56:04--  https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-PY0221EN-SkillsNetwork/labs/module%206/Lab%20-%20Extract%20Transform%20Load/data/source.zip
+Resolving cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud (cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud)... 169.45.118.108
+Connecting to cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud (cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud)|169.45.118.108|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2707 (2.6K) [application/zip]
+Saving to: ‘/mnt/e/capstone4/dataset/download/source.zip’
+
+     0K ..                                                    100%  806M=0s
+
+2024-10-11 22:56:05 (806 MB/s) - ‘/mnt/e/capstone4/dataset/download/source.zip’ saved [2707/2707]
+
+2024-10-11 22:56:05 [INFO] - File downloaded to /mnt/e/capstone4/dataset/download/
+shell.sh: 59: unzip: not found
+2024-10-11 22:56:05 [ERROR] - Failed to unzip the file to: /mnt/e/capstone4/dataset/data/
+2024-10-11 23:01:10 [INFO] - File Download Initiated
+2024-10-11 23:01:10 [INFO] - Download directory created: /mnt/e/capstone4/dataset/download/
+2024-10-11 23:01:10 [INFO] - Extraction directory created: /mnt/e/capstone4/dataset/data/
+Spider mode enabled. Check if remote file exists.
+--2024-10-11 23:01:10--  https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-PY0221EN-SkillsNetwork/labs/module%206/Lab%20-%20Extract%20Transform%20Load/data/source.zip
+Resolving cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud (cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud)... 198.23.119.245
+Connecting to cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud (cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud)|198.23.119.245|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2707 (2.6K) [application/zip]
+Remote file exists.
+
+2024-10-11 23:01:12 [INFO] - URL is reachable: https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-PY0221EN-SkillsNetwork/labs/module%206/Lab%20-%20Extract%20Transform%20Load/data/source.zip
+--2024-10-11 23:01:12--  https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-PY0221EN-SkillsNetwork/labs/module%206/Lab%20-%20Extract%20Transform%20Load/data/source.zip
+Resolving cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud (cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud)... 198.23.119.245
+Connecting to cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud (cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud)|198.23.119.245|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2707 (2.6K) [application/zip]
+Saving to: ‘/mnt/e/capstone4/dataset/download/source.zip.1’
+
+     0K ..                                                    100% 1.37G=0s
+
+2024-10-11 23:01:13 (1.37 GB/s) - ‘/mnt/e/capstone4/dataset/download/source.zip.1’ saved [2707/2707]
+
+2024-10-11 23:01:13 [INFO] - File downloaded to /mnt/e/capstone4/dataset/download/
+Archive:  /mnt/e/capstone4/dataset/download/source.zip
+  inflating: /mnt/e/capstone4/dataset/data/source3.json  
+  inflating: /mnt/e/capstone4/dataset/data/source1.csv  
+  inflating: /mnt/e/capstone4/dataset/data/source2.csv  
+  inflating: /mnt/e/capstone4/dataset/data/source3.csv  
+  inflating: /mnt/e/capstone4/dataset/data/source1.json  
+  inflating: /mnt/e/capstone4/dataset/data/source2.json  
+  inflating: /mnt/e/capstone4/dataset/data/source1.xml  
+  inflating: /mnt/e/capstone4/dataset/data/source2.xml  
+  inflating: /mnt/e/capstone4/dataset/data/source3.xml  
+2024-10-11 23:01:13 [INFO] - File unzipped successfully to /mnt/e/capstone4/dataset/data/
+2024-10-11 23:01:13 [INFO] - File download and extraction completed successfully
